@@ -163,45 +163,6 @@ tr.parent a[href^="/"] {
 		text-align:center;
 		width:100%;
 	}
-	#slackLogo {
-		background-image:url("slack-logo.jpg");
-	}
-	#hariboLogo {
-		background-image:url("haribo-logo.png");
-	}
-	#tpLogo {
-		background-image:url("TP.png");
-	}
-	#grieLogo {
-		background-image:url("grie.png");
-	}
-	#lidlLogo {
-		background-image:url("lidl.png");
-	}
-	#sealLogo {
-		background-image:url("seal.png");
-	}
-	#neotysLogo {
-		background-image:url("neotys.png");
-	}
-	#stLogo {
-		background-image:url("st.png");
-	}
-	#webexLogo {
-		background-image:url("webex.jpeg");
-	}
-	#fiddlerLogo {
-		background-image:url("jsfiddle-logo.png");
-	}
-	#webcenterLogo {
-		background-image:url("webcenter.png");
-	}
-	#fiveflow {
-		background-image:url("5flowlogo.png");
-	}
-	#BootLogo {
-		background-image:url("Bootstrap.png");
-	}
 	*.LogoTop {
 		background-repeat: no-repeat;
 		margin-left:5px;
