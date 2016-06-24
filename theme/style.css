@@ -1,0 +1,248 @@
+/*------------------------------------*\
+    Apaxy
+    by @adamwhitcroft
+
+    Theme name: Apaxy
+    Theme author: @adamwhitcroft
+\*------------------------------------*/
+
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	       box-sizing: border-box; 
+}
+
+html {
+	min-height:100%;
+	color:#333;
+	font-weight:400;
+	font-size:0.8em;
+	background-color:#ffffff;
+	font-family:sans-serif;
+	line-height:1em;
+}
+body {
+
+	-webkit-backface-visibility:hidden;
+}
+code {
+	font-family:consolas,monospace;	
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+
+}
+/*------------------------------------*\
+    Wrapper
+\*------------------------------------*/
+.wrapper {
+	margin:0 auto;
+	padding-top:20px;
+	max-width:800px;
+}
+/*------------------------------------*\
+    Demo block
+\*------------------------------------*/
+.block {
+	font-size:.875em;
+	margin:20px 0;
+	padding:20px;
+	color:#9099A3;
+}
+/*------------------------------------*\
+    Table (directory listing)
+\*------------------------------------*/
+table {
+	width:100%;
+	border-collapse:collapse;
+	font-size:1.5em;
+	font-weight:bold;
+}
+tr {
+	outline:0;
+	border:0;
+}
+tr:hover td {
+	background:#455560;
+}
+tr:hover {
+	color:#c3d600;
+}
+tr:hover a{
+	color:#c3d600;
+}
+th {
+	text-align:left;
+	font-size:.75em;
+	padding-right:20px;
+}
+/* 2nd Column: Filename */
+th + th {
+	width:65%;
+}
+/* 3rd Column: Last Modified */
+th + th + th {
+}
+/* 4th Column: Size */
+th + th + th + th {
+	width:5%;
+}
+tr td:first-of-type {
+	padding-left:10px;
+	padding-right:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+tr td:last-of-type {
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+td {
+	padding:2px 0;
+	outline:0;
+	border:0;
+	border-bottom:1px solid #ffffff;
+	
+	vertical-align:middle;
+	text-align:left;
+	-webkit-transition:background 300ms ease;
+	   -moz-transition:background 300ms ease;
+	    -ms-transition:background 300ms ease;
+	     -o-transition:background 300ms ease;
+	        transition:background 300ms ease;
+}
+
+td a{
+	display: block;
+}
+tr.parent a[href^="/"] {
+	color:#9099A3;
+}
+	.parent a[href^="/"]:hover {
+		color:#2281d0;
+	}
+	
+	#custIcon {
+		background-image:url("cust.png");
+		background-repeat: no-repeat;
+		background-position:50%;
+		width:100%;
+		height:210px;
+		margin-bottom:0px;
+		padding:0;
+	}
+	*.dummyTop {
+		width:100%;
+		border-top:5px solid #455560;
+		height:40px;
+		margin-bottom:-30px;
+		padding:0;
+		margin-top:-2px;
+		border-radius:20px;
+	}
+	*.dummyBot {
+		width:100%;
+		border-bottom:5px solid #455560;
+		height:40px;
+		padding:0;
+		margin-top:-30px;
+		border-radius:20px;
+	}
+	#toolLinks {
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#portalLinks {
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#slackLogo {
+		background-image:url("slack-logo.jpg");
+	}
+	#hariboLogo {
+		background-image:url("haribo-logo.png");
+	}
+	#tpLogo {
+		background-image:url("TP.png");
+	}
+	#grieLogo {
+		background-image:url("grie.png");
+	}
+	#lidlLogo {
+		background-image:url("lidl.png");
+	}
+	#sealLogo {
+		background-image:url("seal.png");
+	}
+	#neotysLogo {
+		background-image:url("neotys.png");
+	}
+	#stLogo {
+		background-image:url("st.png");
+	}
+	#webexLogo {
+		background-image:url("webex.jpeg");
+	}
+	#fiddlerLogo {
+		background-image:url("jsfiddle-logo.png");
+	}
+	#webcenterLogo {
+		background-image:url("webcenter.png");
+	}
+	#fiveflow {
+		background-image:url("5flowlogo.png");
+	}
+	#BootLogo {
+		background-image:url("Bootstrap.png");
+	}
+	*.LogoTop {
+		background-repeat: no-repeat;
+		margin-left:5px;
+		margin-right:5px;
+		background-position:50%;
+		width:60px;
+		height:50px;
+		display:inline-block;
+		border:5px solid #455560;
+		border-top:0px;
+		border-bottom-right-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+	*.a {
+		margin:0;
+		padding:0;
+	}
+	*.LogoBot {
+		background-repeat: no-repeat;
+		margin-left:5px;
+		margin-right:5px;
+		background-position:50%;
+		width:60px;
+		height:50px;
+		display:inline-block;
+		border-top-right-radius:20px;
+		border-top-left-radius:20px;
+	}
+	*.dev {
+		border:5px solid #c3d600;
+		border-bottom:0px;
+	}
+	*.prod {
+		border:5px solid #455560;
+		border-bottom:0px;
+	}
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+.footer {
+	text-align:center;
+	font-size:1em;
+	margin-top:2px;
+}
